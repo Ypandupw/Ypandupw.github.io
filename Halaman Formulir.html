@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regist</title>
+    <link rel="stylesheet" href="styleFormulir.css"/>
+</head>
+<body>
+    <section class="container">
+        <header>Form Registrasi</header>
+        <form action="#" class="form">
+            <div class="input-box">
+                <label>Nama</label>
+                <input type="text" placeholder="Masukan Nama Lengkap" required/>
+            </div>
+
+            <div class="input-box">
+                <label>Nim</label>
+                <input type="number" placeholder="Masukan Nim" required/>
+            </div>
+            
+            <div class="input-box">
+                <label>Prodi</label>
+                <input type="text" placeholder="Masukan Program Studi" required/>
+            </div>
+            
+            <div class="column">
+                <div class="input-box">
+                    <label>Email</label>
+                    <input type="text" placeholder="Masukan Email" required/>
+                </div>
+
+                <div class="input-box">
+                    <label>Password</label>
+                    <input type="text" placeholder="Masukan Password" required/>
+                </div>
+            </div>
+
+            <div class="gender-box">
+                <h3>Jenis Kelamin</h3>
+                <div class="gender-option">
+                    <div class="gender">
+                        <input type="radio" id="check" name="gender" />
+                        <label for="check.laki">Laki Laki</label>
+                    </div>
+                    <div class="gender">
+                        <input type="radio" id="check" name="gender" />
+                        <label for="check.prmpn">Perempuan</label>
+                    </div>
+                    <div class="gender">
+                        <input type="radio" id="check" name="gender" />
+                        <label for="check.other">Tidak ingin Menjawab</label>
+                    </div>
+                </div>
+            </div>
+            <div class="input-box">
+                <label>Tanggal Lahir</label>
+                <input type="date" placeholder="Masukan Tanggal Lahir" required/>
+            </div>
+            <div class="input-box">
+                <label>Alamat</label>
+                <input type="text" placeholder="Jalan" required/>
+                <input type="text" placeholder="Kelurahan" required/>
+                <input type="text" placeholder="Kecamatan" required/>
+                <input type="text" placeholder="Kota/Kabupaten" required/>
+                <input type="number" placeholder="Kode Pos" required/>
+            </div>
+            <a href="Halaman Utama.html"><button>Submit</button>
+        </form>
+    </section>
+</body>
+</html>
